@@ -1,0 +1,123 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-03T17:35:15.660Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4485537000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.beforeRun()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "user willbe able to login using Database",
+        "description": "",
+        "id": "user-should-be-able-to-login-using-test-data-from-database;user-willbe-able-to-login-using-database",
+        "after": [
+          {
+            "result": {
+              "duration": 697619600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.afterRun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1328006900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Techfios Database Page",
+            "match": {
+              "location": "StepDefination.user_is_on_Techfios_Database_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 374899500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user put \"username\" in username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 9
+                }
+              ],
+              "location": "StepDefination.user_put_in_username_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97489500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user put \"passward\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"passward\"",
+                  "offset": 9
+                }
+              ],
+              "location": "StepDefination.user_put_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 920009200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on login button",
+            "match": {
+              "location": "StepDefination.user_click_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2937226100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user lands on Dashboard Page",
+            "match": {
+              "location": "StepDefination.user_lands_on_Dashboard_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Dblogin"
+          }
+        ]
+      }
+    ],
+    "name": "User should be able to login using test data from Database",
+    "description": "",
+    "id": "user-should-be-able-to-login-using-test-data-from-database",
+    "keyword": "Feature",
+    "uri": "classpath:features/LoginUsingDatabese.feature",
+    "tags": []
+  }
+]
